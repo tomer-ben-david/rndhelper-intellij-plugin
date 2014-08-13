@@ -10,7 +10,6 @@ import com.intellij.openapi.ui.Messages;
  */
 public class ShowDialogAction extends AnAction {
     public void actionPerformed(AnActionEvent e) {
-        // TODO: insert action logic here
         Project project = e.getData(PlatformDataKeys.PROJECT);
         String txt= Messages.showInputDialog(project, "What is your name?", "Input Your Name", Messages.getQuestionIcon());
         Messages.showMessageDialog(project, "Hello, " + txt + "!\n I am glad to see you.", "Information", Messages.getInformationIcon());
