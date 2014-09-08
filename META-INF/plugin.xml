@@ -38,10 +38,14 @@
 
   <actions>
     <!-- Add your actions here -->
-      <action id="show_dialog_action" class="ShowDialogAction" text="show_dialog_action"
+      <!--<action id="show_dialog_action" class="ShowDialogAction" text="show_dialog_action"-->
+              <!--description="Show Dialog Action">-->
+          <!--<add-to-group group-id="ToolsMenu" anchor="first"/>-->
+      <!--</action>-->
+      <action id="show_dialog_action" class="com.intellij.ide.actions.ShowTipsAction" text="show_dialog_action"
               description="Show Dialog Action">
           <add-to-group group-id="ToolsMenu" anchor="first"/>
       </action>
-  </actions>
+   </actions>
 
 </idea-plugin>
