@@ -42,7 +42,8 @@
               <!--description="Show Dialog Action">-->
           <!--<add-to-group group-id="ToolsMenu" anchor="first"/>-->
       <!--</action>-->
-      <action id="show_dialog_action" class="com.intellij.ide.actions.ShowTipsAction" text="show_dialog_action"
+      <action id="show_dialog_action" class="MyShowTipsAction"
+              text="show_dialog_action"
               description="Show Dialog Action">
           <add-to-group group-id="ToolsMenu" anchor="first"/>
       </action>
